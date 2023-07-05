@@ -1,0 +1,8 @@
+# Vendor dari composer, jalankan command berikut pada terminal untuk install dependencies
+# composer install
+vendor/ 
+
+# Environment. Konfigurasi untuk PHPMailer dengan variabel sebagai berikut:
+# EMAIL
+# SECRET (Bisa didapat di Google Account -> Security -> App passwords (Aktifkan 2-Step Verif terlebih dahulu))
+.env
