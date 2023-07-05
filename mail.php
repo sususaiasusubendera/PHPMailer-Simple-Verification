@@ -1,10 +1,12 @@
 <?php
 declare(strict_types=1);
 
+// Load variabel .env
 require_once('vendor/autoload.php');
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
+//
 
 $koneksi = mysqli_connect('localhost', 'root', '', 'testphpmailer');
 
