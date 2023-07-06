@@ -6,4 +6,4 @@ composer install
 ```
 
 ### .env
-Cek file .env untuk variabel konfigurasi yang dibutuhkan
+Cek file .gitignore untuk variabel konfigurasi environment yang dibutuhkan
